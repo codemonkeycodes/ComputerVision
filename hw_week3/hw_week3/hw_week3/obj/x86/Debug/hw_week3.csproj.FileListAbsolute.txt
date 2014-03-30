@@ -1,0 +1,10 @@
+Z:\Dropbox\Box Documents\Computer Vision\hw_week3\hw_week3\hw_week3\obj\x86\Debug\hw_week3.csprojResolveAssemblyReference.cache
+Z:\Dropbox\Box Documents\Computer Vision\hw_week3\hw_week3\hw_week3\obj\x86\Debug\hw_week3.Form1.resources
+Z:\Dropbox\Box Documents\Computer Vision\hw_week3\hw_week3\hw_week3\obj\x86\Debug\hw_week3.Properties.Resources.resources
+Z:\Dropbox\Box Documents\Computer Vision\hw_week3\hw_week3\hw_week3\obj\x86\Debug\hw_week3.csproj.GenerateResource.Cache
+Z:\Dropbox\Box Documents\Computer Vision\hw_week3\hw_week3\hw_week3\bin\Debug\hw_week3.exe
+Z:\Dropbox\Box Documents\Computer Vision\hw_week3\hw_week3\hw_week3\bin\Debug\hw_week3.pdb
+Z:\Dropbox\Box Documents\Computer Vision\hw_week3\hw_week3\hw_week3\bin\Debug\AdvGraphics.dll
+Z:\Dropbox\Box Documents\Computer Vision\hw_week3\hw_week3\hw_week3\bin\Debug\AdvGraphics.pdb
+Z:\Dropbox\Box Documents\Computer Vision\hw_week3\hw_week3\hw_week3\obj\x86\Debug\hw_week3.exe
+Z:\Dropbox\Box Documents\Computer Vision\hw_week3\hw_week3\hw_week3\obj\x86\Debug\hw_week3.pdb

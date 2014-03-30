@@ -1,0 +1,39 @@
+\\psf\Home\Dropbox\Box Documents\Adv Computer Graphics\Projects\CurveGeneration\CurveGeneration\AdvGraphics\bin\Debug\AdvGraphics.dll
+\\psf\Home\Dropbox\Box Documents\Adv Computer Graphics\Projects\CurveGeneration\CurveGeneration\AdvGraphics\bin\Debug\AdvGraphics.pdb
+\\psf\Home\Dropbox\Box Documents\Adv Computer Graphics\Projects\CurveGeneration\CurveGeneration\AdvGraphics\obj\Debug\AdvGraphics.dll
+\\psf\Home\Dropbox\Box Documents\Adv Computer Graphics\Projects\CurveGeneration\CurveGeneration\AdvGraphics\obj\Debug\AdvGraphics.pdb
+C:\Users\JeremyS\Documents\Visual Studio 2010\Projects\ShadedTriangle\AdvGraphics\bin\Debug\AdvGraphics.dll
+C:\Users\JeremyS\Documents\Visual Studio 2010\Projects\ShadedTriangle\AdvGraphics\bin\Debug\AdvGraphics.pdb
+C:\Users\JeremyS\Documents\Visual Studio 2010\Projects\ShadedTriangle\AdvGraphics\obj\Debug\AdvGraphics.dll
+C:\Users\JeremyS\Documents\Visual Studio 2010\Projects\ShadedTriangle\AdvGraphics\obj\Debug\AdvGraphics.pdb
+\\psf\Home\Dropbox\Box Documents\Adv Computer Graphics\Projects\ShadedTriangle\AdvGraphics\bin\Debug\AdvGraphics.dll
+\\psf\Home\Dropbox\Box Documents\Adv Computer Graphics\Projects\ShadedTriangle\AdvGraphics\bin\Debug\AdvGraphics.pdb
+\\psf\Home\Dropbox\Box Documents\Adv Computer Graphics\Projects\ShadedTriangle\AdvGraphics\obj\Debug\AdvGraphics.dll
+\\psf\Home\Dropbox\Box Documents\Adv Computer Graphics\Projects\ShadedTriangle\AdvGraphics\obj\Debug\AdvGraphics.pdb
+\\psf\Home\Dropbox\Box Documents\Adv Computer Graphics\Projects\FadeToGrayScale\AdvGraphics\obj\Debug\AdvGraphics.dll
+\\psf\Home\Dropbox\Box Documents\Adv Computer Graphics\Projects\FadeToGrayScale\AdvGraphics\bin\Debug\AdvGraphics.dll
+\\psf\Home\Dropbox\Box Documents\Adv Computer Graphics\Projects\FadeToGrayScale\AdvGraphics\bin\Debug\AdvGraphics.pdb
+\\psf\Home\Dropbox\Box Documents\Adv Computer Graphics\Projects\FadeToGrayScale\AdvGraphics\obj\Debug\AdvGraphics.pdb
+\\psf\Home\Dropbox\Box Documents\Adv Computer Graphics\Projects\Particles\AdvGraphics\obj\Debug\AdvGraphics.dll
+\\psf\Home\Dropbox\Box Documents\Adv Computer Graphics\Projects\Particles\AdvGraphics\obj\Debug\AdvGraphics.pdb
+\\psf\Home\Dropbox\Box Documents\Adv Computer Graphics\Projects\Particles\AdvGraphics\bin\Debug\AdvGraphics.dll
+\\psf\Home\Dropbox\Box Documents\Adv Computer Graphics\Projects\Particles\AdvGraphics\bin\Debug\AdvGraphics.pdb
+C:\Users\JeremyS\Downloads\Particles\Particles\AdvGraphics\bin\Debug\AdvGraphics.dll
+C:\Users\JeremyS\Downloads\Particles\Particles\AdvGraphics\bin\Debug\AdvGraphics.pdb
+C:\Users\JeremyS\Downloads\Particles\Particles\AdvGraphics\obj\Debug\AdvGraphics.dll
+C:\Users\JeremyS\Downloads\Particles\Particles\AdvGraphics\obj\Debug\AdvGraphics.pdb
+C:\Users\JeremyS\Downloads\Particles\Particles\AdvGraphics\obj\Debug\AdvGraphics.csprojResolveAssemblyReference.cache
+\\psf\Home\Dropbox\Box Documents\Adv Computer Graphics\Projects\Particles New\Particles\AdvGraphics\bin\Debug\AdvGraphics.dll
+\\psf\Home\Dropbox\Box Documents\Adv Computer Graphics\Projects\Particles New\Particles\AdvGraphics\bin\Debug\AdvGraphics.pdb
+\\psf\Home\Dropbox\Box Documents\Adv Computer Graphics\Projects\Particles New\Particles\AdvGraphics\obj\Debug\AdvGraphics.csprojResolveAssemblyReference.cache
+\\psf\Home\Dropbox\Box Documents\Adv Computer Graphics\Projects\Particles New\Particles\AdvGraphics\obj\Debug\AdvGraphics.dll
+\\psf\Home\Dropbox\Box Documents\Adv Computer Graphics\Projects\Particles New\Particles\AdvGraphics\obj\Debug\AdvGraphics.pdb
+E:\Downloads\AdvGraphics\bin\Debug\AdvGraphics.dll
+E:\Downloads\AdvGraphics\bin\Debug\AdvGraphics.pdb
+E:\Downloads\AdvGraphics\obj\Debug\AdvGraphics.csprojResolveAssemblyReference.cache
+E:\Downloads\AdvGraphics\obj\Debug\AdvGraphics.dll
+E:\Downloads\AdvGraphics\obj\Debug\AdvGraphics.pdb
+Z:\Dropbox\Box Documents\Computer Vision\AdvGraphics\bin\Debug\AdvGraphics.dll
+Z:\Dropbox\Box Documents\Computer Vision\AdvGraphics\bin\Debug\AdvGraphics.pdb
+Z:\Dropbox\Box Documents\Computer Vision\AdvGraphics\obj\Debug\AdvGraphics.dll
+Z:\Dropbox\Box Documents\Computer Vision\AdvGraphics\obj\Debug\AdvGraphics.pdb

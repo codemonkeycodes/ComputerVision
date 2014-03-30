@@ -1,0 +1,10 @@
+Z:\Dropbox\Box Documents\Computer Vision\hw_week4\hw_week4\hw_week4\bin\Release\hw_week4.exe
+Z:\Dropbox\Box Documents\Computer Vision\hw_week4\hw_week4\hw_week4\bin\Release\hw_week4.pdb
+Z:\Dropbox\Box Documents\Computer Vision\hw_week4\hw_week4\hw_week4\bin\Release\AdvGraphics.dll
+Z:\Dropbox\Box Documents\Computer Vision\hw_week4\hw_week4\hw_week4\bin\Release\AdvGraphics.pdb
+Z:\Dropbox\Box Documents\Computer Vision\hw_week4\hw_week4\hw_week4\obj\x86\Release\hw_week4.csprojResolveAssemblyReference.cache
+Z:\Dropbox\Box Documents\Computer Vision\hw_week4\hw_week4\hw_week4\obj\x86\Release\hw_week4.Form1.resources
+Z:\Dropbox\Box Documents\Computer Vision\hw_week4\hw_week4\hw_week4\obj\x86\Release\hw_week4.Properties.Resources.resources
+Z:\Dropbox\Box Documents\Computer Vision\hw_week4\hw_week4\hw_week4\obj\x86\Release\hw_week4.csproj.GenerateResource.Cache
+Z:\Dropbox\Box Documents\Computer Vision\hw_week4\hw_week4\hw_week4\obj\x86\Release\hw_week4.exe
+Z:\Dropbox\Box Documents\Computer Vision\hw_week4\hw_week4\hw_week4\obj\x86\Release\hw_week4.pdb

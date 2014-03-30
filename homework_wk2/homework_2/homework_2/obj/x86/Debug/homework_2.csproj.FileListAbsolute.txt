@@ -1,0 +1,17 @@
+E:\Downloads\homework_2\homework_2\bin\Debug\homework_2.exe
+E:\Downloads\homework_2\homework_2\bin\Debug\homework_2.pdb
+E:\Downloads\homework_2\homework_2\obj\x86\Debug\homework_2.Properties.Resources.resources
+E:\Downloads\homework_2\homework_2\obj\x86\Debug\homework_2.csproj.GenerateResource.Cache
+E:\Downloads\homework_2\homework_2\obj\x86\Debug\homework_2.exe
+E:\Downloads\homework_2\homework_2\obj\x86\Debug\homework_2.pdb
+Z:\Dropbox\Box Documents\Computer Vision\homework_wk2\homework_2\homework_2\bin\Debug\homework_2.exe.config
+Z:\Dropbox\Box Documents\Computer Vision\homework_wk2\homework_2\homework_2\bin\Debug\homework_2.exe
+Z:\Dropbox\Box Documents\Computer Vision\homework_wk2\homework_2\homework_2\bin\Debug\homework_2.pdb
+Z:\Dropbox\Box Documents\Computer Vision\homework_wk2\homework_2\homework_2\bin\Debug\AdvGraphics.dll
+Z:\Dropbox\Box Documents\Computer Vision\homework_wk2\homework_2\homework_2\bin\Debug\AdvGraphics.pdb
+Z:\Dropbox\Box Documents\Computer Vision\homework_wk2\homework_2\homework_2\obj\x86\Debug\homework_2.csprojResolveAssemblyReference.cache
+Z:\Dropbox\Box Documents\Computer Vision\homework_wk2\homework_2\homework_2\obj\x86\Debug\homework_2.Form1.resources
+Z:\Dropbox\Box Documents\Computer Vision\homework_wk2\homework_2\homework_2\obj\x86\Debug\homework_2.Properties.Resources.resources
+Z:\Dropbox\Box Documents\Computer Vision\homework_wk2\homework_2\homework_2\obj\x86\Debug\homework_2.csproj.GenerateResource.Cache
+Z:\Dropbox\Box Documents\Computer Vision\homework_wk2\homework_2\homework_2\obj\x86\Debug\homework_2.exe
+Z:\Dropbox\Box Documents\Computer Vision\homework_wk2\homework_2\homework_2\obj\x86\Debug\homework_2.pdb
