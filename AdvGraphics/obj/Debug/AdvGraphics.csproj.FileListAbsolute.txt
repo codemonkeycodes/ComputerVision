@@ -37,3 +37,7 @@ Z:\Dropbox\Box Documents\Computer Vision\AdvGraphics\bin\Debug\AdvGraphics.dll
 Z:\Dropbox\Box Documents\Computer Vision\AdvGraphics\bin\Debug\AdvGraphics.pdb
 Z:\Dropbox\Box Documents\Computer Vision\AdvGraphics\obj\Debug\AdvGraphics.dll
 Z:\Dropbox\Box Documents\Computer Vision\AdvGraphics\obj\Debug\AdvGraphics.pdb
+Z:\software projects\ComputerVision\AdvGraphics\obj\Debug\AdvGraphics.dll
+Z:\software projects\ComputerVision\AdvGraphics\bin\Debug\AdvGraphics.dll
+Z:\software projects\ComputerVision\AdvGraphics\bin\Debug\AdvGraphics.pdb
+Z:\software projects\ComputerVision\AdvGraphics\obj\Debug\AdvGraphics.pdb

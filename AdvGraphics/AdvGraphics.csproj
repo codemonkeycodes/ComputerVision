@@ -46,15 +46,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AdvColor.cs" />
+    <Compile Include="BoundaryMove.cs" />
     <Compile Include="BresenhamCircle.cs" />
     <Compile Include="BresenhamLine.cs" />
     <Compile Include="ColorManipulation.cs" />
     <Compile Include="ColorManipulationRGB.cs" />
     <Compile Include="ColorManipulationYPbPr.cs" />
     <Compile Include="ColorYPbPr.cs" />
+    <Compile Include="ConvexHull.cs" />
     <Compile Include="Dither.cs" />
     <Compile Include="Explosive.cs" />
     <Compile Include="Histogram.cs" />
+    <Compile Include="Node.cs" />
     <Compile Include="RGBImage.cs" />
     <Compile Include="Stream.cs" />
     <Compile Include="Graphics.cs" />

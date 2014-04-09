@@ -2,6 +2,7 @@
 using System.Drawing;
 using System.Collections.Generic;
 using System.Drawing.Imaging;
+using System.IO;
 using System.Runtime.InteropServices;
 
 namespace AdvGraphics
@@ -778,6 +779,180 @@ namespace AdvGraphics
             SaveToImage(mag_img, mag_image);
             SaveToImage(dir_img, dir_image);
 
+        }
+
+        private bool IsValueOnRight( BoundaryMove pt, int val )
+        {
+            BoundaryMove pt2 = pt.MoveRight();
+            return (pt2.X >= 0 && pt2.Y >= 0 && pixels[pt2.X, pt2.Y].G == val );
+        }
+
+        public List<BoundaryMove> WalkShape( int start_i, int start_j, int shape_val )
+        {
+            //found the first pixel running face first into it scanning by line.  Backup one pixel and set the direction to north so the pixel is on our right
+            BoundaryMove pt = new BoundaryMove( start_i, --start_j, Direction.eNorth );
+
+            List<BoundaryMove> points = new List<BoundaryMove>();
+            points.Add(pt);
+
+            BoundaryMove pt2 = pt.MoveForward();
+            while( true )
+            {
+                if (Equals(pt2, pt))
+                    break;
+
+                points.Add(pt2);
+
+                while( IsValueOnRight(pt2, shape_val) )
+                {
+                    BoundaryMove pt3 = pt2.MoveForward();
+                    if (pixels[pt3.X, pt3.Y].G == shape_val)
+                        break;
+                    
+                    pt2 = pt3;
+                    points.Add(pt2);
+
+                    if (Equals(pt2, pt))
+                        break;
+                }
+
+                if (Equals(pt2, pt))
+                    break;
+                
+                pt2 = pt2.Move(shape_val, pixels);
+            }
+
+            return points;
+        }
+
+        public List<BoundaryMove> GetBoundaryPixels( int shape_val )
+        {
+            //find the first pixel value matching shape_val
+            int start_i = 0;
+            int start_j = 0;
+            bool found = false;
+            for (start_i = 0; start_i < pixels.GetLength(0); start_i++)
+            {
+                for (start_j = 0; start_j < pixels.GetLength(1); start_j++)
+                {
+                    if (pixels[start_i, start_j].G == shape_val)
+                    {
+                        found = true;
+                        break;
+                    }
+                }
+
+                if (found)
+                    break;
+            }
+
+            //walk the shape
+            return WalkShape(start_i, start_j, shape_val);
+        }
+
+        public List<int> FindShapes()
+        {
+            List<int> shape_values = new List<int>();
+
+            for( int i = 0; i < pixels.GetLength(0); i++ )
+                for( int j = 0; j < pixels.GetLength(1); j++ )
+                {
+                    int val = pixels[i, j].G;
+                    if( val != 0 && !shape_values.Contains(val) )
+                        shape_values.Add(val);
+                }
+
+            return shape_values;
+        }
+
+        public void OutlineHull(List<BoundaryMove> hull, AdvColor[,] new_pixels)
+        {
+            BresenhamLine line = new BresenhamLine(pixels.GetLength(1), pixels.GetLength(0));
+            for( int i = 0; i < hull.Count; i++ )
+            {
+                BoundaryMove p1 = hull[i];
+                BoundaryMove p2;
+                if (i == hull.Count - 1)
+                    p2 = hull[0];
+                else
+                    p2 = hull[i + 1];
+
+                line.DrawBresenhamLine( new_pixels, p1.X, p1.Y, p2.X, p2.Y, Color.White );
+                
+            }
+        }
+
+        public void OutlineShape(List<BoundaryMove> shape, AdvColor[,] new_pixels)
+        {
+            foreach( BoundaryMove pixel in shape )
+            {
+                new_pixels[pixel.X,pixel.Y] = new AdvColor(255,255,255, ColorPlane.eGreen);
+            }
+        }
+
+        public double CalcMoment( int p, int q, int shape_val )
+        {
+            double val = 0;
+            for (int i = 0; i < pixels.GetLength(0); i++)
+            {
+                for (int j = 0; j < pixels.GetLength(1); j++)
+                {
+                    val += Math.Pow(i, p) * Math.Pow(j, q) * (pixels[i, j].G == shape_val ? 1 : 0);
+                }
+            }
+
+            return val;
+        }
+
+        public List<double> CalcMoments( int shape_val )
+        {
+            List<double> moments = new List<double>();
+
+            //mu00, mu10, mu01, mu11, mu20, mu02
+
+            //m10, m00, m01,
+            //xBar = m10/m00
+            //yBar = m01/m00
+
+            //calc m00
+            double m00 = 0;
+
+            m00 = CalcMoment(0, 0, shape_val);
+            double m10 = CalcMoment(1, 0, shape_val);
+            double m01 = CalcMoment(0, 1, shape_val);
+            double m11 = CalcMoment(1, 1, shape_val);
+            double m20 = CalcMoment(2, 0, shape_val);
+            double m02 = CalcMoment(0, 2, shape_val);
+
+            double xBar = (m10/m00);
+            double yBar = (m01/m00);
+
+            //mu00 = m00
+            moments.Add(m00);
+            moments.Add(0);
+            moments.Add(0);
+            moments.Add(m11 - (m00*xBar*yBar));
+            moments.Add(m20 - (m10 * xBar));
+            moments.Add(m02 - (m01 * yBar));
+
+            return moments;
+        }
+
+        public void WriteToTextFile()
+        {
+            StreamWriter writer = new StreamWriter("debug.txt");
+            for( int i = 0; i < pixels.GetLength(0); i++ )
+            {
+                String output = "";
+                for (int j = 0; j < pixels.GetLength(1); j++)
+                {
+                    output += pixels[i, j].G + " \t";
+                }
+                writer.WriteLine(output);
+            }
+
+            writer.Flush();
+            writer.Close();
         }
     }
 }

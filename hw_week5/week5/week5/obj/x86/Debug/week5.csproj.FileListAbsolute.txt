@@ -1,0 +1,10 @@
+Z:\software projects\ComputerVision\hw_week5\week5\week5\obj\x86\Debug\week5.csprojResolveAssemblyReference.cache
+Z:\software projects\ComputerVision\hw_week5\week5\week5\obj\x86\Debug\week5.Form1.resources
+Z:\software projects\ComputerVision\hw_week5\week5\week5\obj\x86\Debug\week5.Properties.Resources.resources
+Z:\software projects\ComputerVision\hw_week5\week5\week5\obj\x86\Debug\week5.csproj.GenerateResource.Cache
+Z:\software projects\ComputerVision\hw_week5\week5\week5\bin\Debug\week5.exe
+Z:\software projects\ComputerVision\hw_week5\week5\week5\bin\Debug\week5.pdb
+Z:\software projects\ComputerVision\hw_week5\week5\week5\bin\Debug\AdvGraphics.dll
+Z:\software projects\ComputerVision\hw_week5\week5\week5\bin\Debug\AdvGraphics.pdb
+Z:\software projects\ComputerVision\hw_week5\week5\week5\obj\x86\Debug\week5.exe
+Z:\software projects\ComputerVision\hw_week5\week5\week5\obj\x86\Debug\week5.pdb

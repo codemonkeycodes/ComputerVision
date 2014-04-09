@@ -8,3 +8,5 @@ Z:\Dropbox\Box Documents\Computer Vision\hw_week4\hw_week4\hw_week4\obj\x86\Debu
 Z:\Dropbox\Box Documents\Computer Vision\hw_week4\hw_week4\hw_week4\obj\x86\Debug\hw_week4.csproj.GenerateResource.Cache
 Z:\Dropbox\Box Documents\Computer Vision\hw_week4\hw_week4\hw_week4\obj\x86\Debug\hw_week4.exe
 Z:\Dropbox\Box Documents\Computer Vision\hw_week4\hw_week4\hw_week4\obj\x86\Debug\hw_week4.pdb
+Z:\software projects\ComputerVision\hw_week4\hw_week4\hw_week4\obj\x86\Debug\hw_week4.exe
+Z:\software projects\ComputerVision\hw_week4\hw_week4\hw_week4\obj\x86\Debug\hw_week4.pdb

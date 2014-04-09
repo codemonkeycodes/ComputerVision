@@ -1,0 +1,6 @@
+560, 0, 0, 0, 74620, 9100, 
+208, 9
+167, 9
+167, 24
+208, 24
+168, 9N E E E E E E E E E E E E E E E S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S W W W W W W W W W W W W W W W N N N N N N N N N N N N N N N N N N N N N N N N N N N N N N N N N N N N N N N N 
